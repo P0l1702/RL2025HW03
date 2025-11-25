@@ -11,8 +11,8 @@ git clone https://github.com/PX4/PX4-Autopilot.git --recursive
 cd PX4-Autopilot
 git checkout v1.16.0
 cd ..
-cd px4_msgs
 git clone https://github.com/PX4/px4_msgs.git
+cd px4_msgs
 git checkout release/1.16
 ```
 Copy the corresponding files from the folder `RL2025HW03/PX4-Autopilot` in the original  `PX4-Autopilot` folder. Then in the`/ros2_ws` fold execute:
